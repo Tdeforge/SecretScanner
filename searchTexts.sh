@@ -16,6 +16,7 @@ if [ ! -d "$1" ]; then
         exit 1
     fi
     echo -e "\e[31mGet real. $1 doesn't exist.\e[0m"
+    echo -e "\e[###31mCorrect Usage: ./searchTexts.sh /your/path/.\e[0m"
     exit 1
 fi
 
